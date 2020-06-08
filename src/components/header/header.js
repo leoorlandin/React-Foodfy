@@ -6,7 +6,7 @@ const Header = () => {
   return (
 
 
-    <>
+    <header>
       <div className="header">
         <a href="/"><img src={logo} alt="Foodfy logo" /></a>
         <div className="links">
@@ -15,7 +15,7 @@ const Header = () => {
         </div>
       </div>
 
-    </>
+    </header>
   );
 };
 
