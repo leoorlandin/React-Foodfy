@@ -1,5 +1,5 @@
 import React from 'react';
-import styes from './footer.css'
+import styes from './footer.css';
 
 const Footer = () => {
 
@@ -11,7 +11,7 @@ const Footer = () => {
 
     </footer>
 
-  )
+  );
 };
 
 
