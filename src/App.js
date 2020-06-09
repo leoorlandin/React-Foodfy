@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from '../src/components/Header/header'
-import Footer from '../src/components/Footer/footer'
-import Main from '../src/components/Main/main'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Layout from '../src/components/layout/index'
+import Routes from '../src/routes/routes';
 
 const App = () => {
   return (
-    <div className="App">
-      <Header/>
-      <Main></Main>
-      <Footer/>
-    </div>
+    <Router>
+      <Layout >
+        <Routes />
+      </Layout>
+    </Router>
   );
 }
 

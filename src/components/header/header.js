@@ -10,8 +10,8 @@ const Header = () => {
       <div className="header">
         <a href="/"><img src={logo} alt="Foodfy logo" /></a>
         <div className="links">
-          <a href="/">Sobre</a>
-          <a href="/">Receitas</a>
+          <a href="/about">Sobre</a>
+          <a href="/recipes">Receitas</a>
         </div>
       </div>
 
