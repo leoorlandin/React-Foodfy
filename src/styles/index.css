@@ -42,3 +42,35 @@ body {
 .main {
   margin: auto 230px;
 }
+
+.principal-box {
+  background: #FBDFDB;
+  height: 50vh;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.principal-texts {
+  width: 316px;
+  margin: auto 60px
+}
+
+.principal-texts h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.principal-texts h2 {
+  font-weight: normal;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.principal-box img {
+  align-self: flex-end;
+  margin-right: 100px;
+}
