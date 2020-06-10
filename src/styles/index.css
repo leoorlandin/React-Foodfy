@@ -38,6 +38,7 @@ body {
   font-weight: bold;
 }
 
-footer {
-  /* display: none; */
+
+.main {
+  margin: auto 230px;
 }

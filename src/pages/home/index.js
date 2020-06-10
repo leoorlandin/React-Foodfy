@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../../components/layout/index'
+import Presentation from '../../components/presentation/index'
 
 
 const Home = () => {
   return (
-    <div className="App">
- 
+    <div>
+      <Presentation />
     </div>
   );
 }
