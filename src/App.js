@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import "./styles/index.css"
 
 import Layout from '../src/components/layout/index'
-import Routes from '../src/routes/routes';
+import Routes from '../src/routes/index';
 
 
 const App = () => {

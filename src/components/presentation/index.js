@@ -1,5 +1,5 @@
 import React from 'react';
-import chef from './chef.png'
+import chef from '../../assets/chef.png'
 
 const Presentation = () => {
   return (
