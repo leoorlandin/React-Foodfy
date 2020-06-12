@@ -1,11 +1,13 @@
 import React from 'react';
-import Presentation from '../../components/presentation/index'
+import Presentation from '../../components/Presentation'
+import RecipeList from '../../components/RecipeList'
 
 
 const Home = () => {
   return (
     <div>
       <Presentation />
+      <RecipeList />
     </div>
   );
 }

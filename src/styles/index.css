@@ -13,6 +13,9 @@
 
 body {
   background-color: #f9f9f9;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 74px;
 }
 
 .header{
@@ -31,7 +34,10 @@ body {
   font-size: 16px;
   color: black;
   align-self: center;
-  margin-left: 10px;
+}
+
+.links a:last-child {
+  margin-left: 30px;
 }
 
 .links a:hover {
@@ -74,3 +80,23 @@ body {
   align-self: flex-end;
   margin-right: 100px;
 }
+
+
+/* ABOUT */
+
+.about-texts h1 {
+  font-size: 24px;
+}
+
+.about-texts h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.description-paragraph p{
+  color: #444444;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
