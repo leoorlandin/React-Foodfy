@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Foodfy
+
+This project is a remake of the repo [foodfy](https://github.com/leoorlandin/foodfy) using [React](https://reactjs.org/).
+
 
 ## Available Scripts
 
