@@ -7,6 +7,7 @@ const RecipeList = () => {
       <h1>Mais acessadas</h1>
 
       <div className="recipes-list">
+
         <div className="recipe-item">
           <img src={imageBundle.asinhas} alt="imagem da receita" />
           <h2>Asinha</h2>
@@ -42,6 +43,7 @@ const RecipeList = () => {
           <h2>Pizza</h2>
           <h2>receita por Nome do chef</h2>
         </div>
+        
       </div>
     </div>
   );

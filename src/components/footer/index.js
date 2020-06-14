@@ -7,7 +7,7 @@ const Footer = () => {
 
     <footer>
 
-      <p>Todos os direitos reservados. ©</p>
+      <p>Todos direitos reservados, receitas Foodfy. ©</p>
 
     </footer>
 
