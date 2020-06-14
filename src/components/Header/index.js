@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 
 const Header = () => {
@@ -7,10 +8,10 @@ const Header = () => {
 
     <header>
       <div className="header">
-        <a href="/"><img src={logo} alt="Foodfy logo" /></a>
+        <Link to="/"><img src={logo} alt="Foodfy logo" /></Link>
         <div className="links">
-          <a href="/about">Sobre</a>
-          <a href="/recipes">Receitas</a>
+          <Link to="/about">Sobre</Link>
+          <Link to="/recipes">Receitas</Link>
         </div>
       </div>
 
