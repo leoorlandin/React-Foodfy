@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <Presentation />
+      <h1 className="section-title">Mais acessadas</h1>
       <RecipeList />
     </div>
   );

@@ -4,7 +4,6 @@ import imageBundle from '../../utils/imageBundle';
 const RecipeList = () => {
   return (
     <div className="recipe-container">
-      <h1>Mais acessadas</h1>
 
       <div className="recipes-list">
 
@@ -43,7 +42,7 @@ const RecipeList = () => {
           <h2>Pizza</h2>
           <h2>receita por Nome do chef</h2>
         </div>
-        
+
       </div>
     </div>
   );

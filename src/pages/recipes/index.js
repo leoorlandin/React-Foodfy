@@ -1,9 +1,11 @@
 import React from 'react';
+import RecipeList from '../../components/RecipeList'
 
 const Recipes = () => {
   return (
     <div>
-      <p>RECIPES</p>
+      <RecipeList />
+      <RecipeList />
     </div>
   );
 };
