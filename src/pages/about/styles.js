@@ -17,5 +17,6 @@ export const DescriptionParagraph = styled.div`
   font-size: 18px;
   line-height: 28px;
   margin-top: 20px;
+  font-weight: 400;
 }
 `;

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Footer = styled.div`
 
-  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 23px 0;
@@ -10,6 +9,5 @@ export const Footer = styled.div`
   background-color: #EEEEEE;
   color: #999999;
   font-size: 14px;
-
-
+  margin-top: 50px;
 `;

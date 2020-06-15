@@ -3,13 +3,17 @@ import PropTypes from 'prop-types'
 import Header from '../Header/'
 import Footer from '../Footer'
 
+import * as S from './styles'
+
 function Layout({ children }) {
   return (
-    <div>
-      <Header />
-      <div className="main">{children}</div>
+    <>
+      <S.Layout>
+        <Header />
+        <div className="main">{children}</div>
+      </S.Layout>
       <Footer />
-    </div>
+    </>
   );
 };
 

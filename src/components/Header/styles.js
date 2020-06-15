@@ -5,7 +5,6 @@ export const Header = styled.div`
   display: flex;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 230px;
 
 `;
 
@@ -19,6 +18,7 @@ export const Links = styled.div`
   font-size: 16px;
   color: black;
   align-self: center;
+  text-decoration: none;
 }
 
 & a:last-child {
