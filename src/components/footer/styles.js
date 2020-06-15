@@ -1,4 +1,7 @@
-footer {
+import styled from 'styled-components';
+
+export const Footer = styled.div`
+
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -7,4 +10,6 @@ footer {
   background-color: #EEEEEE;
   color: #999999;
   font-size: 14px;
-}
+
+
+`;

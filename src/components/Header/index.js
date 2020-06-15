@@ -1,21 +1,25 @@
 import React from 'react';
+
+import * as S from './styles';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
 
+    <S.Header>
 
-    <header>
-      <div className="header">
-        <Link to="/"><img src={logo} alt="Foodfy logo" /></Link>
-        <div className="links">
-          <Link to="/about">Sobre</Link>
-          <Link to="/recipes">Receitas</Link>
-        </div>
-      </div>
+      <Link to="/"><img
+        src={logo}
+        alt="Logo Foodfy" /></Link>
 
-    </header>
+      <S.Links>
+        <Link to="/about">Sobre</Link>
+        <Link to="/recipes">Receitas</Link>
+      </S.Links>
+
+    </S.Header>
+
   );
 };
 
