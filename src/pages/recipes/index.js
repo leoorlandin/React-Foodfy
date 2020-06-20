@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
+import * as S from './styles';
+import RecipeCard from '../../components/RecipeCard';
+import data from '../../data';
 
 const Recipes = () => {
-  return (
-    <div>
+  const [RecipeCards, setRecipeCards] = useState([]);
 
-    </div>
+  React.useEffect(() => {
+    setRecipeCards(data);
+  }, []);
+
+  return (  
+      <S.RecipeList>        
+        {
+          RecipeCards.map(item => (
+            <RecipeCard
+              recipeImage={item.recipeImage}
+              recipeTitle={item.recipeTitle}
+              recipeBy={item.recipeBy}
+            />
+          ))
+        }
+      </S.RecipeList>
   );
 };
 

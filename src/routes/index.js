@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from '../pages/home/index'
-import About from '../pages/about/index'
-import Recipes from '../pages/recipes/index'
-import Header from '../components/Header'
+import Home from '../pages/home';
+import About from '../pages/about';
+import Recipes from '../pages/recipes';
+import Header from '../components/Header';
 
 export default function Routes() {
   return (

@@ -1,44 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 import * as S from './styles';
+import data from '../../data'
+
 import RecipeCard from '../../components/RecipeCard';
 import chef from '../../assets/chef.png';
-import imageBundle from '../../utils/imageBundle';
-
-
-
-const RECIPE_CARDS_MOCKS = [
-  {
-    recipeImage: imageBundle.asinhas,
-    recipeTitle: "Asinhas de Frango",
-    recipeBy: "HEHE XD"
-  },
-  {
-    recipeImage: imageBundle.burger,
-    recipeTitle: "Burger de Banco",
-    recipeBy: "HEHE XD"
-  },
-  {
-    recipeImage: imageBundle.doce,
-    recipeTitle: "Doces Pão do Céu",
-    recipeBy: "HEHE XD"
-  },
-  {
-    recipeImage: imageBundle.espaguete,
-    recipeTitle: "Espaguete com Alho",
-    recipeBy: "HEHE XD"
-  },
-  {
-    recipeImage: imageBundle.lasanha,
-    recipeTitle: "Lasanha 4 Queijos",
-    recipeBy: "HEHE XD"
-  },
-  {
-    recipeImage: imageBundle.pizza,
-    recipeTitle: "Pizza 4 Estações",
-    recipeBy: "HEHE XD"
-  },
-];
 
 
 const Home = () => {
@@ -46,7 +12,7 @@ const Home = () => {
   const [RecipeCards, setRecipeCards] = useState([]);
 
   React.useEffect(() => {
-    setRecipeCards(RECIPE_CARDS_MOCKS);
+    setRecipeCards(data);
   }, []);
 
 
