@@ -10,9 +10,21 @@ export const Presentation = styled.div`
   display: grid;
   grid-template-columns: 1fr auto;
 
+  @media(max-width: 1112px){
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+
   & img {
   align-self: flex-end;
   margin-right: 100px;
+
+  @media(max-width: 1112px){
+    align-self: center;
+    margin-top: 25px;
+  }
 }
 `;
 
