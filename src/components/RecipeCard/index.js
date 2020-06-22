@@ -13,7 +13,6 @@ const RecipeCard = ({ recipeImage, recipeTitle, recipeBy }) => {
   );
 };
 
-
 RecipeCard.propTypes = {
   recipeImage: PropTypes.string.isRequired,
   recipeTitle: PropTypes.string.isRequired,

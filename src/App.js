@@ -5,7 +5,6 @@ import Layout from '../src/components/Layout'
 import GlobalStyle from "./styles/global"
 import Routes from '../src/routes/index';
 
-
 const App = () => {
   return (
     <Router>

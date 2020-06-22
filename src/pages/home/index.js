@@ -6,7 +6,6 @@ import data from '../../data'
 import RecipeCard from '../../components/RecipeCard';
 import chef from '../../assets/chef.png';
 
-
 const Home = () => {
 
   const [RecipeCards, setRecipeCards] = useState([]);
@@ -14,7 +13,6 @@ const Home = () => {
   React.useEffect(() => {
     setRecipeCards(data);
   }, []);
-
 
   return (
     <>
@@ -39,9 +37,7 @@ const Home = () => {
             />
           ))
         }
-
       </S.RecipeList>
-
     </>
   );
 }

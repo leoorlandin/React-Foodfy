@@ -1,6 +1,5 @@
 import imageBundle from './utils/imageBundle';
 
-
  const data = [
   {
     recipeImage: imageBundle.asinhas,
