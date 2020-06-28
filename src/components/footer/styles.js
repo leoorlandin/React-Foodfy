@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Footer = styled.div`
-
   width: 100%;
   padding: 23px 0;
   text-align: center;
